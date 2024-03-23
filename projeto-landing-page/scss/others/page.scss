@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/backgroundLp.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    color: white
+}
+
+.container1 {
+    width: 450px;
+    height: auto;
+}
+
+.btn-hover {
+    background-color: transparent;
+
+    &:hover {
+        background-color: #ff0043;
+        color: white
+    }
+}
+
+.fotter {
+    margin-top: 20px;
+}
