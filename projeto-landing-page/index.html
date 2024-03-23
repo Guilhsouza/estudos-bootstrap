@@ -7,25 +7,105 @@
 
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
 
-    <style>
-        body {
-            background-image: url(./images/backgroundLp.png);
-            background-size: 100vw 100vh;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="icon" href="./images/spacex_logo_icon_144865.png" type="image/x-icon">
 
     <title>Rumo a marte - OnebitX</title>
 </head>
 
 <body class="py-5">
 
-    <div class="container bg-dark">
+    <div class="container bg-dark px-3 container1">
         <div class="text-center">
-            <img src="./images/logo.png" class="img-fluid w-25 my-4">
+            <img src="./images/logo.png" class="img-fluid w-50 my-4">
         </div>
+
+        <p>1 - Qual seu nome?</p>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Nome:</span>
+            <input type="text" class="form-control" placeholder="Digite aqui">
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Sobrenome:</span>
+            <input type="text" class="form-control" placeholder="Digite aqui">
+        </div>
+
+        <p>2 - Qual seu gênero?</p>
+
+        <div class="form-check">
+            <input type="radio" class="form-check-input" name="maleRadio" id="maleRadio">
+            <label for="maleRadio" class="form-check-label">Masculino</label>
+        </div>
+
+        <div class="form-check">
+            <input type="radio" class="form-check-input" name="maleRadio" id="femaleRadio">
+            <label for="femaleRadio" class="form-check-label">Feminino</label>
+        </div>
+
+        <div class="form-check">
+            <input type="radio" class="form-check-input" name="maleRadio" id="otherRadio">
+            <label for="otherRadio" class="form-check-label">Prefiro não informar</label>
+        </div>
+
+        <p class="mt-3">3 - Marque os treinamentos que você já fez:</p>
+
+        <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input" role="switch" id="basicTrainingAstronaut">
+            <label for="basicTrainingAstronaut" class="form-check-label">Treinamento básico de Astronauta</label>
+        </div>
+
+        <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input" role="switch" id="basicTrainingAstronaut">
+            <label for="basicTrainingAstronaut" class="form-check-label">Aptidão física básica</label>
+        </div>
+
+        <div class="form-check form-switch mt-2">
+            <input type="checkbox" class="form-check-input" role="switch" id="basicTrainingAstronaut">
+            <label for="basicTrainingAstronaut" class="form-check-label">Treinamento Avançado de Astronauta </label>
+        </div>
+
+        <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input" role="switch" id="basicTrainingAstronaut">
+            <label for="basicTrainingAstronaut" class="form-check-label">Aptidão física avançada</label>
+        </div>
+
+        <p class="mt-3">4 - Selecione suas qualidades que se destacam:</p>
+
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="proactive" value="proactive">
+            <label for="proactive" class="form-check-label">Proativo</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="resistance" value="resistance">
+            <label for="resistance" class="form-check-label">Resistente</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="notThrowUp" value="notThrowUp">
+            <label for="notThrowUp" class="form-check-label">Não vomito fácil</label>
+        </div>
+        <br>
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="notAfraidMarcians" value="notAfraidMarcians">
+            <label for="notAfraidMarcians" class="form-check-label">Sem medo de marcianos</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="starWarsFan" value="starWarsFan">
+            <label for="starWarsFan" class="form-check-label">Fã de Star Wars</label>
+        </div>
+
+        <div class="mt-3 pb-3 text-center">
+            <button type="button" class="btn btn-outline-success btn-hover">Enviar</button>
+        </div>
+    </div>
+
+    <div class="container text-center fotter">
+        Todos os direitos reservados &copy;Guilherme
     </div>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
